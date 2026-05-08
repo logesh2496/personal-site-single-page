@@ -7,8 +7,63 @@ const SOCIAL_LINKS = [
 
 const HIGHLIGHTS = [
   {
+    name: "Twitter Scraper",
+    href: "https://app.songjam.space/",
+    tagline: "Transcriptions & Participants",
+    description:
+      "Agentic CRM and AI-powered outreach for X Spaces. Download and transcribe spaces instantly.",
+    tags: ["web", "ai", "scraper"],
+    color: "#EC4899",
+    accent: "rgba(236, 72, 153, 0.10)",
+    border: "rgba(236, 72, 153, 0.30)",
+  },
+  {
+    name: "AutoDm Extension",
+    href: "https://chromewebstore.google.com/detail/songjam/ikhimgpbclohoohnahnejbicegbkaole",
+    tagline: "Chrome Extension",
+    description:
+      "Automate your direct messages on X (Twitter). Streamline engagement and outreach right from your browser.",
+    tags: ["extension", "chrome", "automation"],
+    color: "#3B82F6",
+    accent: "rgba(59, 130, 246, 0.10)",
+    border: "rgba(59, 130, 246, 0.30)",
+  },
+  {
+    name: "Live Spaces",
+    href: "https://my.songjam.space/",
+    tagline: "Powered by Daily.co",
+    description:
+      "Host and manage live audio spaces with reliable, high-quality streaming using Daily.co infrastructure.",
+    tags: ["web", "audio", "webrtc"],
+    color: "#F59E0B",
+    accent: "rgba(245, 158, 11, 0.10)",
+    border: "rgba(245, 158, 11, 0.30)",
+  },
+  {
+    name: "Molt Spaces",
+    href: "https://moltspaces-ui-draft.vercel.app/",
+    tagline: "X Space for Open Claw Agents",
+    description:
+      "A modern web platform built for creative spaces and communities. Designed for open claw agents.",
+    tags: ["web", "react", "ai"],
+    color: "#10B981",
+    accent: "rgba(16, 185, 129, 0.10)",
+    border: "rgba(16, 185, 129, 0.30)",
+  },
+  {
+    name: "Dealflow",
+    href: "https://dealflow.songjam.space/",
+    tagline: "Streamline Your Pipeline",
+    description:
+      "Manage and track deals seamlessly. Built to optimize your investment pipeline and networking.",
+    tags: ["web", "finance", "tools"],
+    color: "#8B5CF6",
+    accent: "rgba(139, 92, 246, 0.10)",
+    border: "rgba(139, 92, 246, 0.30)",
+  },
+  {
     name: "Tapster Club",
-    href: "https://tapsterclub.vercel.app/",
+    href: "https://www.tapsterclub.vip/",
     tagline: "Where Networking Begins",
     description:
       "A platform for meaningful professional networking. Built end-to-end — from design to deployment.",
@@ -18,43 +73,98 @@ const HIGHLIGHTS = [
     border: "rgba(124, 58, 237, 0.35)",
   },
   {
-    name: "Moltspaces",
-    href: "https://www.moltspaces.com/",
-    tagline: "moltspaces.com",
+    name: "Pumpkin Auto Burner",
+    href: "https://openburn.netlify.app",
+    tagline: "Automated Token Burner",
     description:
-      "A modern web platform built for creative spaces and communities. Designed and shipped from the ground up.",
-    tags: ["web", "react"],
-    color: "#10B981",
-    accent: "rgba(16, 185, 129, 0.10)",
-    border: "rgba(16, 185, 129, 0.30)",
+      "Efficient and reliable automated token burning mechanism. Streamline your crypto operations securely.",
+    tags: ["web3", "crypto", "automation"],
+    color: "#F97316",
+    accent: "rgba(249, 115, 22, 0.10)",
+    border: "rgba(249, 115, 22, 0.30)",
   },
   {
-    name: "Songjam",
-    href: "https://my.songjam.space/",
-    tagline: "X Spaces Archiving",
+    name: "Podpilot",
+    href: "https://podpilotxyz.netlify.app/",
+    tagline: "Podcast AI Assistant",
     description:
-      "Download and transcribe X (Twitter) Spaces instantly. Search transcripts, create threads, and save recordings as MP3.",
-    tags: ["web", "ai", "x spaces"],
-    color: "#F59E0B",
-    accent: "rgba(245, 158, 11, 0.10)",
-    border: "rgba(245, 158, 11, 0.30)",
+      "Your intelligent co-pilot for podcast creation, management, and audio processing.",
+    tags: ["web", "ai", "audio"],
+    color: "#06B6D4",
+    accent: "rgba(6, 182, 212, 0.10)",
+    border: "rgba(6, 182, 212, 0.30)",
   },
   {
-    name: "Infofi",
-    href: "https://app.songjam.space/",
-    tagline: "The Future of Engagement",
+    name: "Voice Vault",
+    href: "https://voicevault.netlify.app/",
+    tagline: "Secure Your Voice",
     description:
-      "Agentic CRM and AI-powered outreach for X Spaces. Supercharge engagement and grow your audience with verifiable human connection.",
-    tags: ["web", "ai", "crm", "x spaces"],
-    color: "#EC4899",
-    accent: "rgba(236, 72, 153, 0.10)",
-    border: "rgba(236, 72, 153, 0.30)",
+      "Secure your voice in the synthetic age. A vault to protect and verify your authentic voice identity.",
+    tags: ["security", "ai", "audio"],
+    color: "#14B8A6",
+    accent: "rgba(20, 184, 166, 0.10)",
+    border: "rgba(20, 184, 166, 0.30)",
+  },
+  {
+    name: "Voice Emotions",
+    href: "https://aivoiceagents.netlify.app/",
+    tagline: "AI Voice Agents",
+    description:
+      "Emotionally intelligent AI voice agents that understand and respond with natural human-like emotion.",
+    tags: ["ai", "voice", "emotions"],
+    color: "#F43F5E",
+    accent: "rgba(244, 63, 94, 0.10)",
+    border: "rgba(244, 63, 94, 0.30)",
+  },
+  {
+    name: "Music Stemming",
+    href: "https://vox-dev.netlify.app/",
+    tagline: "Audio Separation",
+    description:
+      "Advanced music stemming platform. Separate tracks and experiment with playback in entirely different voices.",
+    tags: ["audio", "ai", "music"],
+    color: "#6366F1",
+    accent: "rgba(99, 102, 241, 0.10)",
+    border: "rgba(99, 102, 241, 0.30)",
+  },
+  {
+    name: "MarbleRace",
+    href: "https://vox-dev.netlify.app/",
+    tagline: "Interactive Racing",
+    description:
+      "An engaging and interactive marble racing experience built on the modern web.",
+    tags: ["game", "web", "interactive"],
+    color: "#EAB308",
+    accent: "rgba(234, 179, 8, 0.10)",
+    border: "rgba(234, 179, 8, 0.30)",
+  },
+  {
+    name: "Vox Player",
+    href: "https://vox-player.netlify.app/",
+    tagline: "Next-Gen Audio",
+    description:
+      "A sleek, high-performance audio player designed for seamless playback and modern web standards.",
+    tags: ["web", "audio", "player"],
+    color: "#A855F7",
+    accent: "rgba(168, 85, 247, 0.10)",
+    border: "rgba(168, 85, 247, 0.30)",
+  },
+  {
+    name: "Numix",
+    href: "https://app.netlify.com/projects/numix/overview",
+    tagline: "Project Overview",
+    description:
+      "Dashboard and project overview platform for managing infrastructure and deployments effectively.",
+    tags: ["dashboard", "infrastructure"],
+    color: "#64748B",
+    accent: "rgba(100, 116, 139, 0.10)",
+    border: "rgba(100, 116, 139, 0.30)",
   },
 ];
 
 const EXPERIENCE = [
   {
-    company: "NUSIC / Songham & others",
+    company: "NUSIC / Songjam & others",
     role: "VP of Engineering",
     period: "6+ years",
     description:
@@ -101,20 +211,23 @@ export default function PersonalSite() {
           Logesh Rajappa
         </h1>
         <p style={{ color: "#99A1AF", fontSize: 13, marginBottom: 20 }}>
-          VP of Engineering
+          Full Stack Engineer
         </p>
         <p
           style={{
             color: "#99A1AF",
             fontSize: 13,
             lineHeight: 1.85,
-            maxWidth: 520,
+            maxWidth: 600,
             marginBottom: 28,
           }}
         >
-          Engineer turned engineering leader. 8+ years building web apps,
-          mobile apps, and UI components — now focused on the teams and systems
-          that make great software possible.
+          Engineer turned engineering leader with{" "}
+          <strong style={{ color: "#d4d4d4", fontWeight: 500 }}>8+ years</strong>{" "}
+          of experience. Obsessed with rapid iteration and zero-to-one building—recently shipped{" "}
+          <strong style={{ color: "#d4d4d4", fontWeight: 500 }}>20+ diverse apps</strong>{" "}
+          spanning AI voice agents, WebRTC streaming, and Web3. Passionate about exploring new tech, often learning a new stack and deploying complex full-stack apps end-to-end within a span of{" "}
+          <strong style={{ color: "#d4d4d4", fontWeight: 500 }}>2 weeks</strong>.
         </p>
         <nav style={{ display: "flex", gap: 20, flexWrap: "wrap" }}>
           {SOCIAL_LINKS.map((link) => (
@@ -132,23 +245,34 @@ export default function PersonalSite() {
       {/* Highlights */}
       <section style={{ marginBottom: 64 }}>
         <SectionHeading>highlights</SectionHeading>
-        <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
+        <div 
+          className="custom-scrollbar"
+          style={{ 
+            display: "flex", 
+            flexDirection: "column", 
+            gap: 16,
+            maxHeight: 600,
+            overflowY: "auto",
+            paddingRight: 8
+          }}
+        >
           {HIGHLIGHTS.map((item) => (
             <a
-              key={item.name}
-              href={item.href}
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{
-                display: "block",
-                textDecoration: "none",
-                background: item.accent,
-                border: `1px solid ${item.border}`,
-                borderRadius: 6,
-                padding: "20px 22px",
-                transition: "background 0.15s, border-color 0.15s",
-                position: "relative",
-                overflow: "hidden",
+               key={item.name}
+               href={item.href}
+               target="_blank"
+               rel="noopener noreferrer"
+               style={{
+                 flexShrink: 0,
+                 display: "block",
+                 textDecoration: "none",
+                 background: item.accent,
+                 border: `1px solid ${item.border}`,
+                 borderRadius: 6,
+                 padding: "20px 22px",
+                 transition: "background 0.15s, border-color 0.15s",
+                 position: "relative",
+                 overflow: "hidden",
               }}
               onMouseEnter={(e) => {
                 (e.currentTarget as HTMLAnchorElement).style.background =
@@ -276,7 +400,7 @@ export default function PersonalSite() {
           I started as a software engineer — building UI components at
           Syncfusion, doing business analysis at Infosys, then spending 6+
           years shipping products across web, mobile, and TWA at companies like
-          NUSIC and Songham.
+          NUSIC and Songjam.
         </p>
         <p style={{ color: "#99A1AF", fontSize: 13, lineHeight: 1.85 }}>
           Today I focus on engineering leadership — building teams, defining
@@ -342,10 +466,18 @@ function SectionHeading({ children }: { children: React.ReactNode }) {
         marginBottom: 28,
       }}
     >
-      <span style={{ color: "#555", fontSize: 11, letterSpacing: "0.1em" }}>
+      <span 
+        style={{ 
+          color: "#99A1AF", 
+          fontSize: 12, 
+          fontWeight: 600, 
+          textTransform: "uppercase",
+          letterSpacing: "0.1em" 
+        }}
+      >
         {children}
       </span>
-      <div style={{ flex: 1, height: 1, backgroundColor: "#1e1e1e" }} />
+      <div style={{ flex: 1, height: 1, backgroundColor: "#2a2a2a" }} />
     </div>
   );
 }
