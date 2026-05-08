@@ -164,18 +164,11 @@ const HIGHLIGHTS = [
 
 const EXPERIENCE = [
   {
-    company: "NUSIC / Songjam & others",
+    company: "NUSIC / SONGJAM",
     role: "VP of Engineering",
     period: "6+ years",
     description:
       "Led engineering across multiple products — building web apps, mobile apps, and trusted web activities (TWAs). Worked across the full stack from architecture to shipping, spanning music-tech and e-commerce domains.",
-  },
-  {
-    company: "Syncfusion Software",
-    role: "Software Engineer",
-    period: "2 years",
-    description:
-      "Worked on the DataGrid component — one of Syncfusion's most widely used UI controls. Focused on performance, feature development, and cross-browser compatibility.",
   },
   {
     company: "Infosys",
@@ -183,6 +176,13 @@ const EXPERIENCE = [
     period: "6 months",
     description:
       "Embedded with the Walmart client team as a business analyst. Bridged technical and product requirements, translating business needs into engineering deliverables.",
+  },
+  {
+    company: "Syncfusion Software",
+    role: "Software Engineer",
+    period: "2 years",
+    description:
+      "Worked on the DataGrid component — one of Syncfusion's most widely used UI controls. Focused on performance, feature development, and cross-browser compatibility.",
   },
 ];
 
@@ -398,9 +398,9 @@ export default function PersonalSite() {
           }}
         >
           I started as a software engineer — building UI components at
-          Syncfusion, doing business analysis at Infosys, then spending 6+
-          years shipping products across web, mobile, and TWA at companies like
-          NUSIC and Songjam.
+          Syncfusion, doing frontend developement at Infosys, then spending 6+
+          years shipping products across web, mobile, and TWA at
+          NUSIC.
         </p>
         <p style={{ color: "#99A1AF", fontSize: 13, lineHeight: 1.85 }}>
           Today I focus on engineering leadership — building teams, defining
