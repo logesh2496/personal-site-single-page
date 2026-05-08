@@ -7,7 +7,7 @@ const SOCIAL_LINKS = [
 
 const HIGHLIGHTS = [
   {
-    name: "Twitter Scraper",
+    name: "InfoFI",
     href: "https://app.songjam.space/",
     tagline: "Transcriptions & Participants",
     description:
@@ -18,7 +18,7 @@ const HIGHLIGHTS = [
     border: "rgba(236, 72, 153, 0.30)",
   },
   {
-    name: "AutoDm Extension",
+    name: "X AutoDm Extension",
     href: "https://chromewebstore.google.com/detail/songjam/ikhimgpbclohoohnahnejbicegbkaole",
     tagline: "Chrome Extension",
     description:
@@ -27,17 +27,6 @@ const HIGHLIGHTS = [
     color: "#3B82F6",
     accent: "rgba(59, 130, 246, 0.10)",
     border: "rgba(59, 130, 246, 0.30)",
-  },
-  {
-    name: "Live Spaces",
-    href: "https://my.songjam.space/",
-    tagline: "Powered by Daily.co",
-    description:
-      "Host and manage live audio spaces with reliable, high-quality streaming using Daily.co infrastructure.",
-    tags: ["web", "audio", "webrtc"],
-    color: "#F59E0B",
-    accent: "rgba(245, 158, 11, 0.10)",
-    border: "rgba(245, 158, 11, 0.30)",
   },
   {
     name: "Molt Spaces",
@@ -51,15 +40,15 @@ const HIGHLIGHTS = [
     border: "rgba(16, 185, 129, 0.30)",
   },
   {
-    name: "Dealflow",
-    href: "https://dealflow.songjam.space/",
-    tagline: "Streamline Your Pipeline",
+    name: "Live Spaces",
+    href: "https://my.songjam.space/",
+    tagline: "Powered by Daily.co",
     description:
-      "Manage and track deals seamlessly. Built to optimize your investment pipeline and networking.",
-    tags: ["web", "finance", "tools"],
-    color: "#8B5CF6",
-    accent: "rgba(139, 92, 246, 0.10)",
-    border: "rgba(139, 92, 246, 0.30)",
+      "Host and manage live audio spaces with reliable, high-quality streaming using Daily.co infrastructure.",
+    tags: ["web", "audio", "webrtc"],
+    color: "#F59E0B",
+    accent: "rgba(245, 158, 11, 0.10)",
+    border: "rgba(245, 158, 11, 0.30)",
   },
   {
     name: "Tapster Club",
@@ -73,7 +62,18 @@ const HIGHLIGHTS = [
     border: "rgba(124, 58, 237, 0.35)",
   },
   {
-    name: "Pumpkin Auto Burner",
+    name: "Dealflow",
+    href: "https://dealflow.songjam.space/",
+    tagline: "Streamline Your Pipeline",
+    description:
+      "Manage and track deals seamlessly. Built to optimize your investment pipeline and networking.",
+    tags: ["web", "finance", "tools"],
+    color: "#8B5CF6",
+    accent: "rgba(139, 92, 246, 0.10)",
+    border: "rgba(139, 92, 246, 0.30)",
+  },
+  {
+    name: "Pump.fun Auto Burner",
     href: "https://openburn.netlify.app",
     tagline: "Automated Token Burner",
     description:
