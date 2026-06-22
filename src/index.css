@@ -43,6 +43,26 @@ a:hover {
   background: #3a3a3a;
 }
 
+/* Masonry layout for highlights */
+.masonry {
+  column-count: 1;
+  column-gap: 16px;
+}
+@media (min-width: 600px) {
+  .masonry {
+    column-count: 2;
+  }
+}
+@media (min-width: 920px) {
+  .masonry {
+    column-count: 3;
+  }
+}
+.masonry-card {
+  break-inside: avoid;
+  margin-bottom: 16px;
+}
+
 /* Custom Scrollbar */
 .custom-scrollbar::-webkit-scrollbar {
   width: 4px;
